@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "C:/Users/614785.old/PycharmProjects/Udemp_Practice/Error_log/exception1.py", line 4, in <module>
+    n=9/0
+ZeroDivisionError: division by zero
+Traceback (most recent call last):
+  File "C:/Users/614785.old/PycharmProjects/Udemp_Practice/Error_log/exception1.py", line 6, in <module>
+    n=9/0
+ZeroDivisionError: division by zero
+Traceback (most recent call last):
+  File "C:/Users/614785.old/PycharmProjects/Udemp_Practice/Error_log/exception1.py", line 7, in <module>
+    n=9/0
+ZeroDivisionError: division by zero
+Traceback (most recent call last):
+  File "C:/Users/614785.old/PycharmProjects/Udemp_Practice/Error_log/exception1.py", line 7, in <module>
+    n=9/0
+ZeroDivisionError: division by zero
+Traceback (most recent call last):
+  File "C:/Users/614785.old/PycharmProjects/Udemp_Practice/Error_log/exception1.py", line 8, in <module>
+    n=9/0
+ZeroDivisionError: division by zero
+Traceback (most recent call last):
+  File "C:/Users/614785.old/PycharmProjects/Udemp_Practice/Error_log/exception1.py", line 8, in <module>
+    n=9/0
+ZeroDivisionError: division by zero
+Traceback (most recent call last):
+  File "C:/Users/614785.old/PycharmProjects/Udemp_Practice/Error_log/exception1.py", line 9, in <module>
+    n=9/0
+ZeroDivisionError: division by zero
