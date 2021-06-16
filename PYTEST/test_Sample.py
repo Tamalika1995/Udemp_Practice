@@ -13,6 +13,7 @@ class TestSample():
         driver.maximize_window()
         driver.implicitly_wait(10)
         yield
+        print("done")
         driver.close()
 
     def test_login(self,test_setUp):
@@ -21,6 +22,7 @@ class TestSample():
         driver.find_element_by_xpath('//*[@id="btnLogin"]').click()
         driver.find_element_by_xpath('//*[@id="welcome"]').click()
         driver.find_element_by_xpath('//*[@id="welcome-menu"]/ul/li/a[@href="/index.php/auth/logout"]').click()
+
     @pytest.mark.skip
     def test_skip_demo(self):
         print("this is for skip")
