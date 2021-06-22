@@ -1,3 +1,17 @@
+import sys
+# print (sys.path)
+sys.path.append("C:\\Users\\614785.old\\PycharmProjects\\Udemp_Practice\\POM\\Tests")
+sys.path.append("C:\\Users\\614785.old\\PycharmProjects\\Udemp_Practice")
+sys.path.append("C:\\Program Files\\JetBrains\\PyCharm Community Edition 2021.1.1\\plugins\\python-ce\\helpers\\pycharm")
+sys.path.append("C:\\Users\\614785.old\\Anaconda3\\envs\\FARE_offline\\python37.zip")
+sys.path.append("C:\\Users\\614785.old\\Anaconda3\\envs\\FARE_offline\\DLLs")
+sys.path.append("C:\\Users\\614785.old\\Anaconda3\\envs\\FARE_offline\\lib")
+sys.path.append("C:\\Users\\614785.old\\Anaconda3\\envs\\FARE_offline")
+sys.path.append("C:\\Users\\614785.old\\AppData\\Roaming\\Python\\Python37\\site-packages")
+sys.path.append("C:\\Users\\614785.old\\Anaconda3\\envs\\FARE_offline\\lib\\site-packages")
+sys.path.append("C:\\Users\\614785.old\\Anaconda3\\envs\\FARE_offline\\lib\\site-packages\\win32")
+sys.path.append("C:\\Users\\614785.old\\Anaconda3\\envs\\FARE_offline\\lib\\site-packages\\win32\\lib")
+sys.path.append("C:\\Users\\614785.old\\Anaconda3\\envs\\FARE_offline\\lib\\site-packages\\Pythonwin")
 import HtmlTestRunner
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
