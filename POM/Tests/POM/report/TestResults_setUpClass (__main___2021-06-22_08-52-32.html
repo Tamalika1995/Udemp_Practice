@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unittest Results</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">Unittest Results</h2>
+                <p class='attribute'><strong>Start Time: </strong>2021-06-22 08:52:32</p>
+                <p class='attribute'><strong>Duration: </strong>0 ms</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 1, Pass: 0, Error: 1</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>setUpClass (__main__</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='warning'>
+                            <td class="col-xs-10">loginTest)</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">SSLError: HTTPSConnectionPool(host='chromedriver.storage.googleapis.com', port=443): Max retries exceeded with url: /LATEST_RELEASE_88.0.4324 (Caused by SSLError("Can't connect to HTTPS URL because the SSL module is not available."))</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:\Users\614785.old\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 654, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "C:\Users\614785.old\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 274, in _get_conn
+    return conn or self._new_conn()
+  File "C:\Users\614785.old\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 964, in _new_conn
+    "Can't connect to HTTPS URL because the SSL module is not available."
+urllib3.exceptions.SSLError: Can't connect to HTTPS URL because the SSL module is not available.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\614785.old\Anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Users\614785.old\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\614785.old\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='chromedriver.storage.googleapis.com', port=443): Max retries exceeded with url: /LATEST_RELEASE_88.0.4324 (Caused by SSLError("Can't connect to HTTPS URL because the SSL module is not available."))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "LoginTest.py", line 33, in setUpClass
+    cls.driver=webdriver.Chrome(options=chrome_option, executable_path=ChromeDriverManager().install())
+  File "C:\Users\614785.old\Anaconda3\envs\FARE_offline\lib\site-packages\webdriver_manager\chrome.py", line 34, in install
+    driver_path = self._get_driver_path(self.driver)
+  File "C:\Users\614785.old\Anaconda3\envs\FARE_offline\lib\site-packages\webdriver_manager\manager.py", line 23, in _get_driver_path
+    driver_version = driver.get_version()
+  File "C:\Users\614785.old\Anaconda3\envs\FARE_offline\lib\site-packages\webdriver_manager\driver.py", line 43, in get_version
+    return self.get_latest_release_version()
+  File "C:\Users\614785.old\Anaconda3\envs\FARE_offline\lib\site-packages\webdriver_manager\driver.py", line 66, in get_latest_release_version
+    resp = requests.get(f"{self._latest_release_url}_{self.browser_version}")
+  File "C:\Users\614785.old\Anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\614785.old\Anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\614785.old\Anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\614785.old\Anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\614785.old\Anaconda3\lib\site-packages\requests\adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='chromedriver.storage.googleapis.com', port=443): Max retries exceeded with url: /LATEST_RELEASE_88.0.4324 (Caused by SSLError("Can't connect to HTTPS URL because the SSL module is not available."))
+
+
+====== WebDriver manager ======
+Current google-chrome version is 88.0.4324
+Get LATEST driver version for 88.0.4324
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 1, Pass: 0, Error: 1 -- Duration: 0 ms
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html
