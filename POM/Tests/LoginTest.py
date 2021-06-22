@@ -1,5 +1,5 @@
 import sys
-# print (sys.path)
+## print (sys.path)
 sys.path.append("C:\\Users\\614785.old\\PycharmProjects\\Udemp_Practice\\POM\\Tests")
 sys.path.append("C:\\Users\\614785.old\\PycharmProjects\\Udemp_Practice")
 sys.path.append("C:\\Program Files\\JetBrains\\PyCharm Community Edition 2021.1.1\\plugins\\python-ce\\helpers\\pycharm")
